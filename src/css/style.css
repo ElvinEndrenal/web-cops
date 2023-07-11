@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-style: normal;
+    font-weight: 200;
+    font-family: 'Readex Pro', sans-serif;
+}
+.bgg{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbg{
+    background-color: rgba(33, 37, 41,0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
