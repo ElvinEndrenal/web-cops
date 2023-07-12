@@ -1,7 +1,7 @@
 # 🌐 The Website
 - This is the COPS main Website that is still under Development
-- Status: Down, Currently being revamped to utilize Bootstrap to make it device responsive
-- Design: Done But not responsive (Still a lot of things to fix)
+- Status: Working...
+- Design: Done and Device Responsive.
 # Tools to Use: 
 
 > Coding
