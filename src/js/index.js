@@ -28,3 +28,8 @@ AOS.init({
 function err(){
   alert("Error: Content Not Available yet");
 }
+
+function version(){
+  document.getElementById("ver").innerHTML= "V0.0.3 - r0003a";
+}
+
