@@ -1,0 +1,142 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    margin-top: 20px;
+    background-color:  rgba(244, 162, 255, 0.5);
+}
+label.logo{
+    font-size: 3vw;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+    position: relative;
+}
+nav ul li a{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+nav ul li:after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    transition: 0.5s;
+
+}
+nav ul li:hover:after{
+    width: 100%;
+}
+.mother{
+    margin: 10px;
+    padding: 0;
+    width: 700px;
+    height: 550px;
+    letter-spacing: 4px;
+    background-color: rgba(8, 8, 7, 0.5);
+    border-radius: 10px;
+    float: left;
+}
+.name{
+   margin: 10px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+.Food{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile{
+    text-align: center;
+    color: gold;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.Foods{
+    margin: 10px;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.hobby{
+    text-align: center;
+    color: gold;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.hobbies{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shows{
+    text-align: center;
+    color: gold;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+
+}
+.show{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.music{
+    text-align: center;
+    color: gold;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+
+}
+.kanta{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.picture{
+    float: right;
+    height: 500px;
+    width: 400px;
+    background-image: url("sir\ donato.jpg");
+   margin-right: 30px;
+   background-size: cover;
+   margin-top: 30px;
+   border-radius: 10px;
+}
