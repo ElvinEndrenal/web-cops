@@ -24,8 +24,8 @@
     <link rel="shortcut icon" href="./src/assets/ofcl.ico" type="image/x-icon"> <!--WebIcon-->
     <title>COPS | Home</title> 
 </head>
-<body class="bgg">
-    
+<body class="bgg" onload="version()">
+
     <!--Navigation-->
         <nav class="navbg navbar navbar-expand-lg navbar-dark sticky-top" id="navi">
             <div class="container-fluid px-lg-5 px-2">
@@ -53,19 +53,21 @@
                     <a class="nav-link hgov" href="#About">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link hgov" href="#evnt" onclick="err()">Events</a>
+                    <a class="nav-link hgov" href="./src/subpages/events.html">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link hgov" href="#co" onclick="err()">Club Officers</a>
+                    <a class="nav-link hgov" href="./src/subpages/officers.html" onclick="err()">Club Officers</a>
                   </li>
                   </li>
                 </ul>
                 <i class="bi bi-patch-check-fill text-white"></i>
-                <span class="navbar-text ps-2">V0.0.2 - r002s</span>
+                <span class="navbar-text ps-2" id="ver"></span>
               </div>
             </div>
           </nav>
 
+
+          
         <!--Landing Page-->
 
         <section class="text-light p-5 pt-lg-5 text-center text-sm-start min-vh-100" id="home">
@@ -252,7 +254,7 @@
           <!--Footer-->
           <footer>
             <section class="bg-dark text-light pt-4 pb-lg-1 pb-3 text-center text-sm-start">
-              <div class="container">
+              <div class="container-fluid px-5">
                 <div class="d-sm-flex align-items-center justify-content-between">
                   <div>
                     <div>
