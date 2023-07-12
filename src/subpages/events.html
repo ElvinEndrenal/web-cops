@@ -1,0 +1,167 @@
+<!--
+    If anyone is reading this I might be studiying or already graduated from STI/PLSP anyways lemme introduce my self. Hi I'm Harley the creator of this website, If you are reading this then you might be modifying the website or adding something to it.
+
+    Have fun editing this, I'll leave a mark of what not to touch.
+
+    you might want to learn Bootstrap and AOS to modify this without loosing responsiveness.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"> <!--CSS-->
+    <!--Do not remove this-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/> <!--Icons-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--Animate on Scroll-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script><!--Bootstrap-->
+    <script src="../js/index.js"></script> <!--JS (Has AOS Script in it)-->
+    <!--Do not remove this-->
+    <link rel="shortcut icon" href="../assets/ofcl.ico" type="image/x-icon"> <!--WebIcon-->
+    <title>COPS | Events</title> 
+</head>
+<body class="bgg" onload="version()">
+    <!--Navigation-->
+    <nav class="navbg navbar navbar-expand-lg navbar-dark sticky-top" id="navi">
+        <div class="container-fluid px-lg-5 px-2">
+          <a class="navbar-brand logo" href="../../index.html">          
+            <img class="img-fluid rounded-5 rounded-circle" src="../assets/logo.png" alt="Robot" width="50" >
+        </a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link hgov" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hgov" href="../../index.html/#About">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active hgov" href="./events.html" >Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hgov" href="./officers.html">Club Officers</a>
+              </li>
+              </li>
+            </ul>
+            <i class="bi bi-patch-check-fill text-white"></i>
+            <span class="navbar-text ps-2" id="ver"></span>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Events-->
+      <section class="text-light p-5 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h3>Events</h3>
+                <p><b>Description</b>: Here is the collection of events that happened at our club.</p>
+            </div>
+            <div><i class="bi bi-heart-pulse fs-1 p-3 d-none d-md-block"></i></div>
+        </div> <hr>
+
+        <div>
+            <!--Cards-->
+            <div class="row g-2">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <strong>*featured</strong>
+                      <h5 class="card-title">Teacher's Bio-Web: Who's that teacher?</h5>
+                      <p class="card-text">This event was the club's first major event inline with the upcoming "Teacher's Day" Event.</p>
+                      <a href="./tbw.html"><button class="btn btn-primary btn-md">
+                        Open Submissions
+                      </button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Cut-->
+              <div class="card mb-3 mx-0 mx-lg-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title">PlayGuide</h5>
+                      <p class="card-text">The ultimate community-driven, open-source game guide app for expert tips and comprehensive guides. </p>
+                      <a href="https://github.com/PlayGuide-org/PlayGuide"><button class="btn btn-primary btn-md">
+                        Open in Github
+                      </button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-12">
+                        <div class="card-body">
+                          <h5 class="card-title">PG-Guides</h5>
+                          <p class="card-text">This is where the Guides are stored (Basically a database of guides collected into one).</p>
+                          <a href="https://github.com/PlayGuide-org/PG-Guides"><button class="btn btn-primary btn-md">
+                            Open in Github
+                          </button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Cut-->
+                  <div class="card mb-3 mx-0 mx-lg-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-12">
+                        <div class="card-body">
+                          <h5 class="card-title">Discord Rich Presence</h5>
+                          <p class="card-text">For the rich presence for Discord to be a cool kid your class !! </p>
+                          <a href="https://github.com/Harleythetech/Discord-Rich-Presence"><button class="btn btn-primary btn-md">
+                            Open in Github
+                          </button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row g-2">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-12">
+                            <div class="card-body">
+                              <h5 class="card-title">BrainlessDev-Harley</h5>
+                              <p class="card-text">Curious about me? Here's the revamped Version of the old Developer-Info: Powered by Bootstrap & AOS.</p>
+                              <a href="https://github.com/Harleythetech/BrainlessDev-Harley"><button class="btn btn-primary btn-md">
+                                Open in Github
+                              </button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>               
+                </div>
+            <!--End of Cards-->
+        </div>
+      </section>
+    <!--AOS Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
