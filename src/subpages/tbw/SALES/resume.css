@@ -1,0 +1,87 @@
+.navbar {
+  overflow: hidden; 
+  background-color: #5D659B; 
+}
+
+.navbar a {
+  float: left; 
+  border-right: 1px solid #bbb;
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+  text-decoration: none; 
+}
+
+.navbar a.right {
+  float: right; 
+  border-right: none;
+}
+
+.navbar a:hover {
+  background-color: rgb(192, 186, 241);
+  color: black; 
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 225px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  transition: .3s ease;
+	background-image: url("id.jpg");
+  background-position: center;
+	border-radius:50%;
+  background-size: 100%;
+  border-style: solid;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.a1:link, .a1:visited {
+  background-color: #33385A;
+  color: white;
+  padding: 13px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a1:hover, .a1:active {
+  background-color: #5D659B;
+}

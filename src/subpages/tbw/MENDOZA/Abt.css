@@ -1,0 +1,114 @@
+*{ 
+    padding: 0;
+    margin: 0;
+ } 
+ body { 
+    background-image: url(Bg.jpg);
+} 
+nav{ 
+    
+    display: flex;
+    width: 84%; 
+    margin: auto; 
+    padding-top: 25px; 
+    padding-left: 10px; 
+    text-align: center; 
+    justify-content: space-between; 
+    float: left; 
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2vw; 
+    
+} 
+nav ul li{
+     display: inline-block;
+     list-style: none; 
+     margin: 10px 20px; 
+} 
+nav ul li a{ 
+        text-decoration: none; 
+        color: rgb(0, 0, 0); 
+        font-weight: bold;
+} 
+nav li a:hover{
+         background: #7A9ADB; 
+         color:#fff; 
+         border-radius: 25px; 
+         padding: 20px;
+          width: 200px; 
+          height: 150px;
+} 
+.div2{ 
+        width:auto;
+        height: 7vw; 
+        
+
+} 
+.J{ 
+        border-radius: 50%; 
+        padding-top: 10px; 
+        padding-right: 5px; 
+} 
+.div3{
+    width: 45%; 
+    height: 80vh; 
+    background: rgb(255, 255, , 0.0); 
+    float: left; 
+    margin-top: 14.5px;
+    margin-left: 15px;
+} 
+
+
+.div4{ 
+    width: 50%; 
+    height: 80vh;
+     background: rgb(255, 255, 254, 0.0); 
+     float: right; 
+     margin-top: 250px;
+} 
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    height: 545px; 
+    width:600px; 
+
+    border: solid 1px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #7A9ADB;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    flex-direction: column;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 545px; 
+    width:600px; 
+    border: solid 1px;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 15px;
+    font-family: 'Noto Sans Mono' , monospace;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+  }

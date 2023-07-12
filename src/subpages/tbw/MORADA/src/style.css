@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body{
+    background-image: url(https://images-ext-2.discordapp.net/external/5h_tgts5y7A-AMbSG4kiOEAFFEhHFnXQjlfFQiqAlcI/https/cdn.dribbble.com/users/1044993/screenshots/3637946/sea-turtle-animation.gif?width=569&height=427);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+text-decoration: none;
+
+}
+.wtt{
+    font-size: 60px;
+    font-family: 'Silkscreen', cursive;
+    }
+
+
+button
+{
+    
+    font-size: 50%;
+    border-radius: 20px;
+    background-color: rgba(0, 17, 255, 0.671);
+
+}
+
+#container
+{
+    text-align: center;
+    font-size: 70px;
+}
+
+
+#bio-btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family:'Silkscreen', cursive;
+}
+
+#hb-btn
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Silkscreen', cursive
+}
+
+
+#str-btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Silkscreen', cursive 
+}
+
+#ach-btn{
+    display: block; 
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Silkscreen', cursive 
+
+}
+#wt-btn{
+    display: block; 
+    margin: auto;
+    font-family: 'Silkscreen', cursive 
+
+}
+
+button:hover{
+border: none;
+cursor: pointer;
+background: none;
+transition: 0.4s;
+}
+
+button:active{
+    background-color: rgb(0, 255, 213);
+    transition: none;
+}

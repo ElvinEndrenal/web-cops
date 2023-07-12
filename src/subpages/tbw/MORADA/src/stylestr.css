@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body{
+    background-image: url(https://images-ext-2.discordapp.net/external/5h_tgts5y7A-AMbSG4kiOEAFFEhHFnXQjlfFQiqAlcI/https/cdn.dribbble.com/users/1044993/screenshots/3637946/sea-turtle-animation.gif?width=569&height=427);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sbod{
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Silkscreen', cursive;
+}
+.sb{
+    font-size: 50%;
+    border-radius: 20px;
+    background-color: rgba(0, 17, 255, 0.671);
+    height: 70px;
+    width: 70px;
+    font-family:'Silkscreen', cursive;
+
+
+}
+#container
+{
+    text-align: center;
+    font-size: 25px;
+}
+button:hover{
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.4s;
+    }
+    
+    button:active{
+        background-color: rgb(0, 255, 213);
+        transition: none;
+    }

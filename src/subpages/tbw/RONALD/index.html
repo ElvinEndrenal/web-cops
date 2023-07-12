@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        html {
+            scroll-behavior: auto;
+        }
+
+        /*Navigation*/
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            margin: 20px 0px;
+        }
+
+        .nav ul li {
+            font-family: 'Abyssinica' serif;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 25px;
+            transition: all .5s ease;
+        }
+
+        .nav ul li a:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 0 0 10px white;
+        }
+
+        /*information*/
+
+        #info {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 840px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #info::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url('src/images/123.png')no-repeat center center/cover;
+            height: 900px;
+            width: 100%;
+            z-index: -1;
+            opacity: .8;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 13%;
+            bottom: 50%;
+            left: 25%;
+            right: 25%;
+
+
+        }
+
+        .heading {
+            font-size: 3rem;
+            text-align: center;
+            margin: 40px 0px;
+        }
+
+        /*favorites*/
+
+        #about {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            padding: 20px;
+            margin-bottom: 50px;
+
+        }
+
+        #pic {
+            display: flex;
+        }
+
+        #pic img {
+            width: 575px;
+            height: 400px;
+        }
+
+        #intro {
+            display: inline-block;
+            flex-direction: column;
+            text-align: center;
+            padding-left: 250px;
+
+        }
+
+        #intro p {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .creds {
+            background-color: gray;
+            color: white;
+        }
+
+        .B {
+            color: rgb(128, 214, 240);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#Information">Information</a></li>
+            <li><a href="#Favorites">Favorites</a></li>
+        </ul>
+    </nav>
+    <div id="Information"></div>
+    <section id="info">
+        <div class="main">
+            <h1 class="head">
+                In all honesty , she heard that this school's salary is high out of all of the schools she applied on ,
+                which are only two schools. After her demo at STI ,the school instantly responded so she grasped the
+                opportunity. Also she heard that STI has some good characteristics along with its staff and students.
+                For her STI is the best school for achieving or being on the way to fullfil your dreams.<br> <br>
+                <p class="B">How many years have you been teaching?</p> <br>
+                She hasn't teached for years , only 2 months to be accurate. She's a beginner to teaching. <br> <br>
+                <p class="B"> What makes you unique?</p> <br>
+                In all of what she can think , she praises her independence. Why? Because at times in her life she was a
+                bit troubled as she faced situations in her life during Elementary. She slept at other people's houses
+                to take care of the owner's children , in exchange she gets to learn or sponsorship you could say.
+                Despite all of these hardships she pushed through and achieved her dreams. Her independence. <br> <br>
+                <p class="B">Greatest Weakness and Strength?</p><br>
+                Weakness - Being lonely , the type that you want somebody / a family member to be there fro you at times
+                needed. Somebody to rant to when times get hard. <br>
+                Strength - As to what she stated earlier Being independent.
+            </h1>
+        </div>
+    </section>
+    <div id="Favorites"></div>
+    <section id="about">
+        <h1 class="heading">FAVORITES</h1>
+        <div class="pic">
+            <img src="src/images/1234.png" alt="">
+            <div id="intro">
+                <p>
+                    Color: Green <br><br>
+                    Food: Any dessert <br><br>
+                    Place: School <br><br>
+                    TV series: Korean drama <br> <br>
+                    Movie: HollyWood <br><br>
+                    Singer: SB19 <br><br>
+                    Role Model: Big Sister
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="creds">
+        <h1>Credits:</h1>
+        <h3> Ronald Mark L. Masalonga </h3>
+        <h3> Charles Cedrick C. Oruga </h3>
+        <h3> Stephen Ulrich D. Carabio </h3>
+        <h3> Honeylyn A. Vasquez </h3>
+        <h3> Julie Ann G. Felismino </h3>
+    </section>
+</body>
+
+</html> 
