@@ -30,6 +30,9 @@ function err(){
 }
 
 function version(){
-  document.getElementById("ver").innerHTML= "V0.0.3 - r0003a";
+  document.getElementById("ver").innerHTML= "V0.0.4";
+}
+function verpatch(){
+  window.open("https://github.com/STI-COPS/web-cops", "_blank");
 }
 
