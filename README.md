@@ -2,6 +2,10 @@
 - This is the COPS main Website that is still under Development
 - Status: Working...
 - Design: Done and Device Responsive.
+
+# Maintainers:
+- [@Harleythetech](https://github.com/Harleythetech) : Former Club Public Relations Officer
+
 # Tools to Use: 
 
 > Coding
