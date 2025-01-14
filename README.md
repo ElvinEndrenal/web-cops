@@ -5,6 +5,7 @@
 
 # Maintainers:
 - [@Harleythetech](https://github.com/Harleythetech) : Former Club Public Relations Officer
+- [@ElvinEndrenal](https://github.com/ElvinEndrenal) : Club Public Relations Officer
 
 # Tools to Use: 
 
